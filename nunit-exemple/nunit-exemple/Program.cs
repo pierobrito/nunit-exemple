@@ -1,16 +1,25 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using nunit_exemple.Helpers;
+using System.Diagnostics.CodeAnalysis;
 
-var cpf = "00081411189";
-Console.WriteLine($"Validate cpf : {cpf} ");
-
-if (ValidateCPF.IsCpf(cpf))
+[ExcludeFromCodeCoverage]
+internal class Program
 {
-    Console.WriteLine($"{cpf} is valid");
-}
-else
-{ 
-    Console.WriteLine($"{cpf} is not valid"); 
-}
+    private static void Main(string[] args)
+    {
 
-Console.ReadLine();
+        var cpf = "00081411189";
+        Console.WriteLine($"Validate cpf : {cpf} ");
+
+        if (ValidateCPF.IsCpf(cpf))
+        {
+            Console.WriteLine($"{cpf} is valid");
+        }
+        else
+        {
+            Console.WriteLine($"{cpf} is not valid");
+        }
+
+        Console.ReadLine();
+    }
+}

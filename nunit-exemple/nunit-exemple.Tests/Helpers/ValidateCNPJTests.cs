@@ -19,6 +19,7 @@ namespace nunit_exemple.Tests.Helpers
         [TestCase("11.302.132/0001-95")]
         [TestCase("41.444.647/0001-96")]
         [TestCase("98.503.600/0001-74")]
+        [TestCase("98.503.600/0001-744456456")]
         [TestCase(null)]
         public void ValidateCNPJ_ShouldBeUnsuccessful(string cpf)
         {
