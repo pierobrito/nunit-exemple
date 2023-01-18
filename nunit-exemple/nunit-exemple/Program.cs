@@ -8,7 +8,7 @@ internal class Program
     private static void Main(string[] args)
     {
 
-        var cpf = "00081411189";
+        var cpf = "auhiuiahuihauihauihaui00081411189";
         Console.WriteLine($"Validate cpf : {cpf} ");
 
         if (ValidateCPF.IsCpf(cpf))

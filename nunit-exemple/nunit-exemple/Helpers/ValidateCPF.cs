@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace nunit_exemple.Helpers
@@ -10,8 +11,10 @@ namespace nunit_exemple.Helpers
     {
         public static bool IsCpf(string cpf)
         {
-            //Validate if cpf IsNullOrEmpty
-            if (string.IsNullOrEmpty(cpf)) { return false; }
+            ////Validate if cpf IsNullOrEmpty
+            //if (string.IsNullOrEmpty(cpf)) { return false; }
+            
+            cpf = Regex.Replace(cpf, @"^-?[0-9][0-9,\.]+$", cpf);
 
             int[] multiplicador1 = new int[9] { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
             int[] multiplicador2 = new int[10] { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 };

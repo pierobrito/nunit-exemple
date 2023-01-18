@@ -20,6 +20,7 @@ namespace nunit_exemple.Tests.Helpers
         [TestCase("899.772.560-21")]
         [TestCase("142.819.070-82")]
         [TestCase("619.219.190-53")]
+        [TestCase("41")]
         [TestCase(null)]
         public void ValidateCPF_ShouldBeUnsuccessful(string cpf)
         {
