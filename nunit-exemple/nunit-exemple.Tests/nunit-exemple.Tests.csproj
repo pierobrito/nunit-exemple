@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\nunit-exemple\nunit-exemple.Console.csproj" />
+    <ProjectReference Include="..\nunit-exemplo.Api\nunit-exemplo.Api.csproj" />
   </ItemGroup>
 
 </Project>
