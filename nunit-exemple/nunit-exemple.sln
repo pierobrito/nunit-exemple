@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nunit-exemple", "nunit-exemple\nunit-exemple.csproj", "{A85C1F17-767E-414D-8E49-C47EBCE8B93E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nunit-exemple.Console", "nunit-exemple\nunit-exemple.Console.csproj", "{A85C1F17-767E-414D-8E49-C47EBCE8B93E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nunit-exemple.Tests", "nunit-exemple.Tests\nunit-exemple.Tests.csproj", "{8E4C10FE-1D31-4589-8F5F-D269C32310D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nunit-exemple.Tests", "nunit-exemple.Tests\nunit-exemple.Tests.csproj", "{8E4C10FE-1D31-4589-8F5F-D269C32310D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

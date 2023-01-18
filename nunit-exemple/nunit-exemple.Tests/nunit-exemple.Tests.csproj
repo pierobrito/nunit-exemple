@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\nunit-exemple\nunit-exemple.csproj" />
+    <ProjectReference Include="..\nunit-exemple\nunit-exemple.Console.csproj" />
   </ItemGroup>
 
 </Project>
