@@ -13,6 +13,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\nunit-exemple\nunit-exemple.Console.csproj" />
+    <ProjectReference Include="..\nunit-exemplo.Domain\nunit-exemplo.Domain.csproj" />
+    <ProjectReference Include="..\nunit-exemplo.Service\nunit-exemplo.Service.csproj" />
   </ItemGroup>
 
 </Project>

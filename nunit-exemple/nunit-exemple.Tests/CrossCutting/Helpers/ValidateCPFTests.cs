@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using nunit_exemple.Helpers;
 
-namespace nunit_exemple.Tests.Helpers
+namespace nunit_exemple.Tests.CrossCutting.Helpers
 {
     [TestFixture]
     public class ValidateCPFTests
@@ -11,7 +11,7 @@ namespace nunit_exemple.Tests.Helpers
         [TestCase("142.819.070-84")]
         [TestCase("619.219.190-51")]
         public void ValidateCPF_ShouldBeSuccessful(string cpf)
-        {           
+        {
             var result = ValidateCPF.IsCpf(cpf);
 
             Assert.IsTrue(result);

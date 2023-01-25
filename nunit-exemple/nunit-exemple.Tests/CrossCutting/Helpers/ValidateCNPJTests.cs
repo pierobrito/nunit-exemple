@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using nunit_exemple.Helpers;
 
-namespace nunit_exemple.Tests.Helpers
+namespace nunit_exemple.Tests.CrossCutting.Helpers
 {
     [TestFixture]
     public class ValidateCNPJTests
